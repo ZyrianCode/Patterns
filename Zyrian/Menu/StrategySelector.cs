@@ -1,4 +1,5 @@
 ﻿using Patterns.Zyrian.Strategy.DuckTemplate;
+using Patterns.Zyrian.Strategy.SimpleTemplate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace Patterns.Zyrian.Menu
     {
         public static MenuItem[] Items =
         {
-            new MenuItem("Strategy on Duck example: ", new DuckExample())
+            new MenuItem("Strategy on Duck example: ", new DuckExample()),
+            new MenuItem("Strategy on Simple example: ", new SimpleExample())
         };
 
         public override string DisplayMenu()

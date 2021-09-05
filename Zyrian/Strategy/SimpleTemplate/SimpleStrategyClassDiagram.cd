@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Entities.BaseContext">
+    <Position X="2.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAQEAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Entities\BaseContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Entities.FirstContext">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Entities\FirstContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Entities.SecondContext">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Entities\SecondContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Behaviour.FirstGroup.BaseStrategy">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Behaviour\FirstGroup\BaseStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Behaviour.FirstGroup.FirstConcreteStrategy">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Behaviour\FirstGroup\FirstConcreteStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.SimpleTemplate.Behaviour.FirstGroup.SecondConcreteStrategy">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Behaviour\FirstGroup\SecondConcreteStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Patterns.Zyrian.Strategy.SimpleTemplate.Behaviour.FirstGroup.IStrategy">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\SimpleTemplate\Behaviour\FirstGroup\IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
