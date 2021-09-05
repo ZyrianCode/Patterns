@@ -9,6 +9,11 @@ namespace Patterns.Zyrian.Menu
 {
     public class StrategySelector : Selector
     {
+        public static MenuItem[] Items =
+        {
+            new MenuItem("Strategy on Duck example: ", new DuckExample())
+        };
+
         public override string DisplayMenu()
         {
             Console.WriteLine("For select type one of existed menu operations: ");
@@ -18,30 +23,8 @@ namespace Patterns.Zyrian.Menu
             return Console.ReadLine().ToString();
         }
 
-        public override void StartMenu()
-        {
-            switch (DisplayMenu())
-            {
-                case "1":
-                    Console.WriteLine("Strategy on Duck example: ");
-                    DuckExample duckExample = new DuckExample();
-                    duckExample.Start();
-                    break;
+        public override void StartMenu() => ShowData(int.Parse(DisplayMenu()));
 
-                case "2":
-                    Console.WriteLine("Temporary locked...");
-                    break;
-
-                case "3":
-                    Console.WriteLine("Temporary locked...");
-                    break;
-
-                default:
-                    Console.WriteLine("Couldn'n find that case...");
-                    Console.WriteLine("Open first case.");
-
-                    break;
-            }
-        }
+        public static void ShowData(int id) => Items[id].DisplayInnerMenu();
     }
 }

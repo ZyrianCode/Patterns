@@ -1,4 +1,5 @@
-﻿using Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Fly;
+﻿using Patterns.Zyrian.PatternExample;
+using Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Fly;
 using Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Quack;
 using Patterns.Zyrian.Strategy.DuckTemplate.Ducks;
 using System;
@@ -9,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Zyrian.Strategy.DuckTemplate
 {
-    public class DuckExample
+    public class DuckExample : Example
     {   
-        public void Start()
+        public override void Start()
         {
             List<DuckBase> ducks = new List<DuckBase>();
             ducks.Add(new SimpleDuck());
