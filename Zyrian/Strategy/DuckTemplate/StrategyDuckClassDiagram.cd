@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.DuckBase">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAAAAAAAAAAAAIAAAAAAEACAAQAABQAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\DuckBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.ExoticDuck">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\ExoticDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.RubberDuck">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\RubberDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.SimpleDuck">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\SimpleDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.UpgradableDuck">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\UpgradableDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Ducks.WoodenDuck">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Ducks\WoodenDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.DuckExample">
+    <Position X="12.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\DuckExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Fly.FlyWithWings">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Fly\FlyWithWings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Fly.NoFly">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Fly\NoFly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Quack.ExoticQuack">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Quack\ExoticQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Quack.NoQuack">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Quack\NoQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Quack.SimpleQuack">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Quack\SimpleQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Fly.IFlyable">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Fly\IFlyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Patterns.Zyrian.Strategy.DuckTemplate.Behaviour.Quack.IQuackable">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Zyrian\Strategy\DuckTemplate\Behaviour\Quack\IQuackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
